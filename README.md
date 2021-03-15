@@ -4,13 +4,12 @@ lab2-1
 int main()
 {
     printf("[----- [김수영]  [2020039042] -----]\n");
-    char charType;              //문자형 변수 charType
-    int integerType;            //정수형 변수 integerType
-    float floatType;            //부동 소수점형(float) 변수 floatType
-    double doubleType;          //부동 소수점형(double) 변수 doubleType
+    char charType;             
+    int integerType;          
+    float floatType;            
+    double doubleType;       
 
     printf("Size of char: %ld byte\n",sizeof(charType));      
-//변수 charType 크기를 구하며, charType은 char형으로 선언했으므로 크기는 1 byte
     printf("Size of int: %ld bytes\n",sizeof(integerType));  
 //변수 integerType 크기를 구하며, integerType은 int형으로 선언했으므로 크기는 4 byte
     printf("Size of float: %ld bytes\n",sizeof(floatType)); 
